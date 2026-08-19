@@ -14,7 +14,6 @@ export function Cartao({nome, cargo, foto}) {
 }
 
 const styles = StyleSheet.create({
-
   card: {
     backgroundColor: '#fff',
     padding: 20,
@@ -23,6 +22,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     width: 350,
     alignItems: 'center',
+    marginTop: 12
   },
   foto: {
     width: 100,
